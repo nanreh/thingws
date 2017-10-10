@@ -1,0 +1,26 @@
+{
+  "name": "thingws",
+  "version": "1.0.0",
+  "description": "Funnel messages from serial devices to interested parties over a websocket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nanreh/thingws.git"
+  },
+  "author": "@nanreh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nanreh/thingws/issues"
+  },
+  "homepage": "https://github.com/nanreh/thingws#readme",
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  },
+  "dependencies": {
+    "serialport": "^6.0.0",
+    "ws": "^3.2.0"
+  }
+}
