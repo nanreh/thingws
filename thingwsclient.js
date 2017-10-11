@@ -1,3 +1,7 @@
+/**
+ * ThingWs listens to a websocket and emits 'data' events when messages arrive
+ * from the server.
+ */
 function ThingWs() {
   var self = this;
   self.events = {};
@@ -9,7 +13,7 @@ function ThingWs() {
   });
   // Listen for messages
   socket.addEventListener('message', function (event) {
-      console.log('Message from server ', event.data);
+      //console.log('Message from server ', event.data);
       self.emit('data', event.data);
   });
 }

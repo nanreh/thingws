@@ -1,10 +1,10 @@
 {
   "name": "thingws",
   "version": "1.0.0",
-  "description": "Funnel messages from serial devices to interested parties over a websocket",
-  "main": "index.js",
+  "description": "Funnel messages from things connected on serial ports to interested parties over a websocket",
+  "main": "thingwsserver.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha test/**/*.js --reporter spec"
   },
   "repository": {
     "type": "git",

@@ -1,7 +1,7 @@
 "use strict";
 
 const SERVER_PORT = 8081;
-const SerialMonitor = require('../lib/serialMonitor');
+const SerialMonitor = require('./lib/serialMonitor');
 const serialMonitor = new SerialMonitor.SerialMonitor( {portsToExclude:['/dev/tty.Bluetooth-Incoming-Port', '/dev/tty.JaybirdX3-SPPDev']} );
 
 const WebSocketServer = require('ws').Server;
